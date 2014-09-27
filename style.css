@@ -1,8 +1,14 @@
-h1, h2, h3, p {
-	text-align: center;
-	font-family: calibri, arial, sans-serif;
+body {
+    background-color: #EBEBED;
+    padding: 2%;
+    text-align: center;
+    font-family: calibri, arial, sans-serif;
 }
 
-body {
-	background-color: #EBEBED;
+/*
+h1, h2, h3, p {
+    text-align: center;
+    font-family: calibri, arial, sans-serif;
 }
+*/
+
