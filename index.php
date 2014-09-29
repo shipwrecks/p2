@@ -1,8 +1,3 @@
-<?php
-error_reporting(E_ALL);   	# Report Errors, Warnings, and Notices
-ini_set('display_errors', 1); # Display errors on page (instead of a log file)
-?>
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -32,7 +27,8 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
    	 <input type="submit" value="generate!"><br>
     </form>
 
-    <h2>Your new password is: </h2>
+    <h2>Your new password is:</h2>
+    <h2 class="output"><?php echo $password; ?></h2>
 </body>
 
 </html>
