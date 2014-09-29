@@ -10,7 +10,8 @@ A simple utility for generating xkcd style passwords.
 
 ##Demo
 
-I am submitting a Jing.
+I am submitting a Jing capture for my demo.
+(http://screencast.com/t/wk4MzHAN)
 
 ##Details for teaching team
 
