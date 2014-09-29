@@ -39,7 +39,8 @@ if (isset($_GET['symbol'])) {
     $symbol = false;
 }
 
-$selection = array(); //empty array
+//new array for creating the password, starts empty
+$selection = array();
 
 if ($number == true) {
 	$randNum = array_rand($numbers);
@@ -53,15 +54,14 @@ if ($symbol == true) {
 	array_push($selection, $addSym);
 } 
 
+//the result if no number of words is picked, if it's zero, past max, or alpha
 $error = 'Please submit a valid number of words.';
 
-$max = count($words); //number of elements in original array
+$max = count($words);
 if ($count>0 AND $count<8) {
 	for ($i = 0; $i < $count; $i++) {
 	    $pick = rand(0, $max-1);
 	    $word = $words[$pick];
-	    //echo $pick.' of '.$max; //just for testing
-	    //echo $word.'<br />';  //just for testing
 	    array_push($selection, $word);
 	} $password = implode (" ", $selection);
 
