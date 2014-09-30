@@ -2,7 +2,7 @@
 
 ##Live URL
 
-(http://p2.nearsightedninja.me)
+http://p2.nearsightedninja.me
 
 ##Description
 
@@ -11,7 +11,7 @@ A simple utility for generating xkcd style passwords.
 ##Demo
 
 I am submitting a Jing capture for my demo.
-(http://screencast.com/t/wk4MzHAN)
+http://screencast.com/t/wk4MzHAN
 
 ##Details for teaching team
 
